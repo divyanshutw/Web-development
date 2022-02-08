@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div{
+  float: left;
+  height: 300px;
+  width: 33.33vw;
+}
+.one{
+  background: chocolate;
+}
+.two{
+  background: gold;
+}
+.three{
+  background: aquamarine;
+  width: 33.34%;
+}
+h1{
+  clear: both;
+}

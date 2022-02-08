@@ -1,0 +1,17 @@
+/* Horizoontal centering */
+
+body{
+  text-align: center;
+}
+.block {
+  background: burlywood;
+  color: white;
+  width: 200px;
+  margin: 1em auto;  /*left and right margin is auto, so it will automatically keep the view in horizontal center*/
+  /*If you keep just margin-left: auto, then the view will be shifted to right and if margin-right: auto, then view will go to left and if both then center horizontal.*/
+}
+.inline {
+  background: cornflowerblue;
+  color: darkblue;
+  
+}

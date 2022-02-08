@@ -1,0 +1,25 @@
+/* Line-height, Letter-spacing, word-spacing, text-transform, text-decoration*/
+
+a{
+    font-size: 1.5em;
+    text-decoration: line-through;
+}
+body{
+    text-transform: capitalize;
+    /*capitalize= first letter of each word is capitalized*/
+}
+h1{
+    text-transform:uppercase;
+    text-decoration: underline;
+}
+.one{
+    line-height: 2em;
+    /*try line-height: 0.2em; (less than 1)*/
+}
+.two{
+    letter-spacing: 5px;
+    text-decoration: overline orangered ;
+}
+.three{
+    word-spacing: 15px;
+}

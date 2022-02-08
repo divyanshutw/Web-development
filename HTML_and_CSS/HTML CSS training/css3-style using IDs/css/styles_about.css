@@ -1,0 +1,12 @@
+/*ID*/
+
+/*You can style particular tags by giving them id*/ 
+#title {
+    color:blue;
+    background: brown;
+}
+
+#subheading{
+    color:white;
+    background: cornflowerblue;
+}

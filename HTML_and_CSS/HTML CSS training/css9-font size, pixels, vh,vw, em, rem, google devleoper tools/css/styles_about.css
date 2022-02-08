@@ -1,0 +1,25 @@
+/*
+rem=RELATIVE depends on root
+1rem= 16px default browser style*/
+
+/*root*/
+html{
+    font-size: 32px;
+    /*Now 1rem= 32px*/
+    /*If no root font-size is defined, then 1rem=16px for default browsers style and if browser font-size is changed from settings, then then 1ream
+    But if root font-size is defined, then nothing will change on changing the font-size of browser*/
+}
+
+
+div{
+    font-size: 100px;
+}
+
+.relative{
+    font-size: 2rem;
+}
+.absolute{
+    font-size: 32px;
+}
+
+/*In this case even if we change the font-size of div, the font-size of relative won't change since it depends on root i.e. the html font-size.*/

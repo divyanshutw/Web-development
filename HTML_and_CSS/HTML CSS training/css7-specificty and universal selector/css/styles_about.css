@@ -1,0 +1,9 @@
+.red{
+    color: red;
+}
+
+p{
+    color:blueviolet
+}
+
+/*The color will be red. This happens because of specificty in CSS or specificty hierarchy. Google it.

@@ -1,0 +1,18 @@
+/*Class selectors*/
+
+.green{
+    color:green;
+}
+.red{
+    color:red;
+    background-color: aquamarine;
+}
+#title{
+    color: grey;
+}
+#title2{
+    font-size:xx-large /*or font-size: 40px*/
+}
+.lowercase{
+    text-transform: lowercase;
+}

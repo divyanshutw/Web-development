@@ -1,0 +1,11 @@
+/*  *Universal selector*/
+
+*{
+    color: green;
+}
+
+p{
+    color: hotpink;
+}
+
+/*Universal selector has least specificity. It can be overridden by any tag style*/

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form 
+    action=""
+    method="">
+        <label for="name">Firstname</label>
+        <input type="text" name="name" id="name">
+        
+        <br>
+
+        <!--placeholder is like hint text-->
+        <p>Password</p>
+        <input type="password" name="" id="" placeholder="Pass">
+        
+        <br>
+        
+        <input type="email" name="" id="" value="Email@email">
+
+        <br>
+
+        <!--For large text-->
+        <p>Description</p>
+        <textarea name="" id="" cols="40" rows="10"></textarea>
+        
+        <br>
+
+        <!--Radio buttons
+        The radio group is identified by the name field
+        So the name of all radio buttons of a group must be same
+        The value field will be added to the database where we are saving form responses-->
+        <p>Choose one</p>
+        <input type="radio" name="language" id="" value="java">Java
+        <br>
+        <input type="radio" name="language" id="" value="javascript">Javascript
+        <br>
+        <input type="radio" name="language" id="" value="python">Python
+        <br>
+        <input type="radio" name="language" id="" value="cpp">Cpp
+
+        <br>
+
+        <!--Checkbox-->
+        <p>Choose the favorites</p>
+        <input type="checkbox" name="fav" id="" value="java">Java
+        <br>
+        <!--by using "checked", you can make a checkbox checked by default-->
+        <input type="checkbox" checked name="fav" id="" value="javascript">Javascript
+        <br>
+        <input type="radio" name="fav" id="" value="python">Python
+        <br>
+        <input type="radio" name="fav" id="" value="cpp">Cpp
+
+        <br>
+
+        <!--select/dropdown-->
+        <p>Select the correct</p>
+        <select name="Languages" id="">
+            <option value="java">Java</option>
+            <option value="javascript">Javascript</option>
+            <option value="python">Python</option>
+            <option value="cpp">Cpp</option>
+        </select>
+
+        <br>
+        
+        <input type="submit" value="Submit">
+        
+        <br>
+        
+        <button type="submit">Submit</button>
+
+        <!--After submitting, you can see the fields selected in the url path parameters-->
+    </form>
+</body>
+</html>

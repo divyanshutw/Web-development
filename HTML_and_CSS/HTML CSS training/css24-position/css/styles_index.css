@@ -1,0 +1,37 @@
+div{
+  border: 3px solid brown;
+  background: burlywood;
+  margin-top: 40px;
+  text-align: right;
+  /* position: relative; */
+}
+.one{
+  background: cadetblue;
+  position: relative;
+  top: 25px;  /*the view is shifted 25px "relative" to the top of its initial position*/
+  right: 10%;
+}
+
+button{
+  background: orange;
+  font-size: 30px;
+  margin-top: 50px;
+  position: fixed;
+  top: 500px;
+  /*With position:fixed, even if you scroll, the position of view will not change*/
+}
+
+.two{
+  background: lightgoldenrodyellow;
+  /* position: relative; */
+}
+.special{
+  background: lightskyblue;
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  /*With position:absolute, the view is placed relative to the body irrespective of the other parent vews. 
+  Now try making .two as position:relative, you'll see that the .special shifts down relative to the parent .two now.
+  Now try making the whole div as position:relative, you'll see that the .special shifts relative to its parent div now.*/
+}

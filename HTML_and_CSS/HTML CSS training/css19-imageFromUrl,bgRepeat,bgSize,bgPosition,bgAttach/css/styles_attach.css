@@ -1,0 +1,41 @@
+/*background-attachment*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+  min-height:  100vh;
+  color: red;
+  font-size: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.big-img{
+  background: url('../images/big.jpeg');  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+  /*background-attachment: fixed; This means that bg is fixed when we scroll*/
+
+}
+.small-img{
+  background: url('../images/small.jpeg');
+  border:2px solid orange;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+background-attachment: fixed;
+}
+.url-img{
+  background: url('../images/big.jpeg');  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}

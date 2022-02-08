@@ -1,0 +1,13 @@
+/*Last rule Specificity * Universal Selector*/
+p{
+    color:blue;
+}
+
+p{
+    color:red
+}
+/*The last rule will be applicable in this case and the color of p will be red. This is called last rule specificity*/
+
+.red{
+    color: red;
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Dancing+Script:wght@400;500&family=Knewave&display=swap');
+
+/* font-weight, font-style*/
+
+body{
+    font-family: 'Dancing Script', cursive;
+}
+.main{
+    font-family: 'Knewave', cursive;
+}
+.subheading{
+    font-style: normal;
+}
+.one{
+    /* font-weight: 700; */
+    font-weight: bold;
+    font-style: italic;
+}
+.two{
+    /* font-weight: 900; */
+    font-weight: lighter;
+    font-style: oblique;
+}

@@ -1,0 +1,12 @@
+/*font-size and font-family*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /*This is called font-stack
+    if browser doesn't have arial, helvetica is used, if helvetica is also not supported, then sans-serif is used. The last one in the font-stack is always generic. Generic has many styles included in it.*/
+    /*serif, sans-serif, cursive, fantasy, monospace are generic*/
+}
+h1{
+    font-family: Verdana;
+    /*font-family: unset; This will unset the font-family*/
+}

@@ -1,0 +1,45 @@
+/*using image from url or some path
+background-repeat, background-size, background-position, background-position-x, background-position-y*/
+
+div{
+  height: 500px;
+  color: yellow;
+  height: 250px;    
+  /*The last one overrides other properties*/
+  color: #6677ff;
+}
+.big-img{
+  background: url('../images/big.jpeg');  /* '' and "" both would work*/
+  /*if the image is big, it is cropped and if it is small, it is repeated by default*/
+}
+.small-img{
+    background: url('../images/small.jpeg');
+    border:2px solid orange;
+    background-repeat: no-repeat;
+    /*repeat-x= image is repeated in x direction only.
+    repeat-y= image is repeated in y direction only.
+    round= the images will be repeated but the size will be adjusted in such a way that all images are full and not cropped*/
+}
+.url-img{
+    background: url('https://upload.wikimedia.org/wikipedia/en/9/95/Test_image.jpg');
+}
+.bg-img{
+  background: url('../images/big.jpeg');
+  background-size: contain;
+  /*cover=The image covers the whole area
+  contain= the size of image is changed so that it fits the screen but the ratio of height to width does not change, if repeat is on, then the images are repeated*/
+}
+.pos-img1{
+  background: url('../images/small.jpeg');
+  border:2px solid orange;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*The background is shifetd in center. Try this with big image Try other options available.
+  You can also shift the background only in x or y direction using background-position-x and background-position-y*/
+}
+.pos-img2{
+  background: url('../images/small.jpeg');
+  border:2px solid orange;
+  background-repeat: no-repeat;
+  background-position: 50px 50%;
+}

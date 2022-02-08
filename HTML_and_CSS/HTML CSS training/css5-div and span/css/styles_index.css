@@ -1,0 +1,16 @@
+/*Class selectors*/
+
+.green{
+    color:green;
+}
+.red{
+    color:red;
+}
+div{
+    color:red;
+    background-color: rgb(55, 66, 144);
+}
+
+span{
+    text-transform:uppercase;
+}

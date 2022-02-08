@@ -1,0 +1,24 @@
+.banner{
+  border: 5px solid purple;
+  padding: 10px;
+  overflow: hidden;  /*The part that is going out of the border when we use float is called overflow. Hidden means that part of image out of border will be hidden*/
+}
+img{
+  width: 200vh;
+}
+/* img{
+  float:left;
+}
+p{
+  clear: left;
+} */
+/*Uncomment above part and comment the lower part*/
+.one{
+  float: left;
+}
+.two{
+  float: right;
+}
+p{
+  clear: both;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Experiment1</title>
+
+        <!-- Which css comes last will be applied -->
+        
+        <style>
+            .class4{
+                background: cadetblue;
+            }
+        </style>
+        <link rel="stylesheet" href="./styles.css">
+        
+        
+    </head>
+    <body>
+        <img src="./images/photo.webp" alt="image">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nulla officia, laborum maiores enim maxime. Cupiditate obcaecati recusandae est cumque expedita? Tempore nesciunt hic, laboriosam magnam dolore eaque iusto ducimus et assumenda explicabo praesentium corrupti expedita, perferendis asperiores veritatis dignissimos aperiam vitae obcaecati! Voluptatibus neque sint a hic modi incidunt placeat non optio aliquam illum nihil, repudiandae itaque fugiat molestiae quibusdam cum mollitia esse tempora labore tenetur quas. Magnam ratione culpa magni iure beatae eveniet quod accusantium! Suscipit quas tempore, saepe alias fuga quisquam corrupti obcaecati nam adipisci nesciunt labore quia nihil molestias cumque at excepturi impedit necessitatibus? Maiores, incidunt!</p>
+
+        <br><br><br>
+
+        <div class="flex">
+            <div class="box">
+                Expreiment
+            </div>
+
+            <div class="bg">
+                Bg-color and bg Experiment
+            </div>
+
+            <div class="class2 class3 class1">
+                class1 class2 class3
+            </div>
+
+            <div   class="class1 class2 class3" id="id2" id="id1" >
+                id="id2" id="id1" class="class1 class2 class3"
+            </div>
+
+            <div class="class1 class2" class="class3">
+                class="class1 class2" class="class3"
+            </div>
+
+            <div class="class1 class2 class4 class3 " >
+                Internal vs external css
+            </div>
+
+            <div class="class1 class2 class4 class3" style="background-color: aqua;">
+                Internal vs external css vs inline
+                Inline always has higher priority
+            </div>
+
+        </div>
+
+        <br><br><br>
+        
+        <div class="blank"></div>
+        <div id="id2" class="class1 class2 class3 class4">
+            id="id2" class="class1 class2 class3"
+        </div>
+        <div class="blank"></div>
+        <!-- this is referring to the div which comes first in html -->
+        <a href="#id2">Got to id2</a>
+
+        <br><br><br>
+        <p class="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, necessitatibus praesentium, eveniet repellat soluta, nemo odit incidunt iure alias sit debitis culpa! Qui adipisci illum fugit nisi repudiandae animi, neque dolorum laborum porro aliquid maiores eos maxime. Maiores praesentium corporis tenetur eveniet aperiam distinctio molestias eum, voluptatem natus vero, iusto in enim hic fuga obcaecati illum rerum quibusdam quasi nulla repudiandae fugit explicabo quas? Iusto ea, atque magnam praesentium nam accusamus est sequi impedit! At hic voluptatum sequi? Culpa voluptates odio distinctio ducimus repellat quas rerum animi, repellendus quasi, voluptatibus ratione minima debitis velit officia ad dolorum quaerat, nostrum suscipit.</p>
+
+    </body>
+</html>

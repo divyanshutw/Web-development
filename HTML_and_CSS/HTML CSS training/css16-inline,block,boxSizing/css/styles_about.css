@@ -1,0 +1,8 @@
+/* inline-block*/
+
+a{
+    font-size: 30px;
+    background: hsl(0, 0%, 67%);
+    margin: 10px;
+    display: inline-block;  /*In case of inline block, the view will work as inline but the effect of top bottom margin will be visible*/
+}

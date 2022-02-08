@@ -1,0 +1,15 @@
+/*:link :visited :hover :active*/
+
+a:link{
+    color: indianred;
+}
+a:visited{
+    color: indigo;
+}
+a:hover{
+    color: darkgreen;
+}
+a:active{       /*While clicking*/
+    color: blue;
+    font-size: 60px;
+}

@@ -1,0 +1,8 @@
+/*External CSS To apply CSS to whole project or part of project*/
+h1{
+    color:aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+}
+h2{
+    color:blue
+}

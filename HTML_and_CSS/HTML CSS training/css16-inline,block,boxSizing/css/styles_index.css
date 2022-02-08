@@ -1,0 +1,34 @@
+/*Block= Top margin respected
+inline= top bottom margin not respected
+mobile navbar
+list-style-type: property
+descendant selectors*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+ul li{  /*To style all "li" inside "ul"*/
+  list-style-type: none;  /*This specifies the type of numbering like square, circle, number, etc. Remove the * styling at the top to see the effect as the numbering is visible only with padding as non-zero*/
+  
+}
+ul li a{  /*To style all "a" inside "li" inside "ul" If you write simple "a", then effect will be shown to all links*/
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  background: #ffff44;
+  color: #00ffff;
+  /*Links are always inline by default. So if you add margin, no effect will be shown*/
+  display: block;
+  padding: 10px;
+  margin: 10px;
+}
+
+p a{
+  font-size: 50px;
+}

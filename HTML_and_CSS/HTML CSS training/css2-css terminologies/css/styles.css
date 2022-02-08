@@ -1,0 +1,15 @@
+/*External CSS To apply CSS to whole project or part of project*/
+h1{
+    color:aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    color:blue;
+}
+/* The whole thing like "h1{color:aqua}" is called CSS group*/
+
+/*CSS rules
+Selectors: e.g. h1,h2
+declaration block: the thing inside {}
+property: e.g. color,font-family
+value: e.g. the value of color property is aqua*/ 

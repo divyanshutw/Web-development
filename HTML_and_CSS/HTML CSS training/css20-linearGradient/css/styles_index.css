@@ -1,0 +1,28 @@
+body{
+  display: flex;
+}
+div{
+  width: 15vw;
+  height: 15vh;
+  margin: 20px;
+}
+.one{
+  background: linear-gradient(red, yellow);
+}
+.two{
+  background: linear-gradient(to left,red, yellow);
+  /*Default direction is "to bottom". 
+  The principle is that start from initial color and go in the direction specified to reach final color. In this case start with initial color and move towards top to reach final color.*/
+}
+.three{
+  background: linear-gradient(150deg,red,yellow,blue,silver);
+}
+.four{
+  background: linear-gradient(to top left,red, yellow);
+}
+.five{
+  background: linear-gradient(rgba(152,170,160,0.1),rgba(152,170,160,0.9));
+}
+.six{
+  background: linear-gradient(to left, rgba(152,170,160,0.1),rgba(152,170,160,0.9));
+}

@@ -1,0 +1,18 @@
+/* Root element of the document, html element, general styles, css variables */
+
+:root{
+    /* background: cadetblue; */
+    font-size: 150%;
+}
+h1{
+    font-size: 3rem;
+}
+.absolute{
+    font-size: 24px;
+}
+.responsive{
+    font-size: 1.5rem;      /*1rem === 16px for normal browser settings, so 1.5rem = 24px
+    But if you change fontsize from browser settings, the responsive paragraph size will change but the absolute one will not change.
+    Since the root font-size is 150%, the rem will change, so responsive will change but absolute will not*/
+}
+

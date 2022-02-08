@@ -1,0 +1,29 @@
+/*Color properties
+Color background-color*/
+
+#first{
+    color: brown;
+    background-color: burlywood;
+}
+#second{
+    color: rgb(200, 88, 255);
+    background: rgb(255, 0, 100)
+}
+#third{
+    color: rgb(255, 255, 255);
+    background-color:rgb(0, 0, 255);
+}
+#fourth{
+    color: rgb(100, 0, 0,1);
+    /*rgba(red,green,blue,opacity or alpha); 
+    0(transparent)<=opacity<=1(full);*/ 
+    background-color:rgba(255,255,255,0.7);
+}
+#fifth{
+    color: #00dd00; /*rgb in hex format    rrggbb*/
+    background-color: #20c5ee9c;  /*rgba in hex format    rrggbbaa*/
+}
+
+body{
+    background:rgb(100, 100, 110);
+}

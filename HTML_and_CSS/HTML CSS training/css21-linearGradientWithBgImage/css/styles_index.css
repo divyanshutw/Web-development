@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+  color: blueviolet;
+}
+.banner {
+  background: url("../images/photo.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.header {
+  background: linear-gradient(rgba(100, 0, 0, 0), rgba(100, 0, 0, 0.5)),
+    url("../images/photo.webp") center/cover no-repeat fixed;
+  /*Linear gradient will overlay the background image
+  Instead of writing size,repeat,position and attachment separately, we can write them in one line in above form*/
+}

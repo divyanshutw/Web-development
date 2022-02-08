@@ -1,0 +1,53 @@
+.input-name:focus{
+    background: crimson;
+    text-decoration: underline;
+}
+
+.p-first-letter::first-letter{
+    font-size: xx-large;
+}
+
+.p-first-line::first-line{
+    text-decoration: underline;
+}
+
+.p-before::before{
+    content: counter(10);
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: calc(33.33vw + 20px);
+    box-shadow: 0px 0px 5px 5px grey; 
+
+}
+.card:hover{
+    box-shadow: 5px 5px 10px 10px grey; 
+    transition: 0.5s;
+
+}
+
+.image{
+    margin: 10px 10px 50px 10px;
+}
+
+img{
+    width: 33.33vw;
+  -webkit-box-reflect: right  0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+  resize: both;
+}
+
+@media screen and (max-width:880px){
+    .card{
+        width: calc(50vw + 10px);
+    border: 2px solid blueviolet;
+
+    }
+    .image{
+        margin: 5px 5px 50px 5px;
+    }
+    img{
+        width: 50vw;
+    }
+}

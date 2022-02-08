@@ -1,0 +1,12 @@
+/* :hover*/
+
+p:hover{
+    color: indianred;
+}
+.header:hover{
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+a:hover{
+    text-decoration: none;
+}

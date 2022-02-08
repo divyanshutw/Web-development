@@ -1,0 +1,74 @@
+/* Media queries
+responsive design
+style elements on different screen sizes
+min-width: --- starting from
+max-width: --- up to
+mobile first*/
+
+body{
+  background: yellow;
+}
+.banner{
+  background: tomato;
+}
+h1{
+  color: blue;
+  text-align:center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+@media screen and (min-width:600px){
+  /*The complete syntax of above line is important, even spaces
+  When screen width is more than 600px, then this would be active*/
+  body{
+    background: red;
+  }
+  .banner{
+    background: chartreuse;
+  }
+  h1{
+    color: darkcyan;
+    font-size: 34px;
+  }
+  /*Increase the browser size or "zoom out" to see the result*/
+}
+
+/*@media screen and (min-width:1000px){
+  /*The complete syntax of above line is important, even spaces
+  When screen width is more than 1000px, then this would be active
+  If you place query of min-width:600px below the query with min-width:1000px, the first query will be overridden by the second one* /
+
+  body{
+    background: burlywood;
+  }
+  .banner{
+    background: firebrick;
+  }
+  h1{
+    color: darkmagenta;
+    font-size: 34px;
+    text-align: right;
+    font-style: italic;
+  }
+  /*Increase the browser size or "zoom out" to see the result* /
+}*/
+
+@media screen and (max-width:1000px){
+  /*The complete syntax of above line is important, even spaces*/
+  /*When screen width is less than 1000px, then this would be active*/
+
+  body{
+    background: burlywood;
+  }
+  .banner{
+    background: firebrick;
+  }
+  h1{
+    color: darkmagenta;
+    font-size: 34px;
+    text-align: right;
+    font-style: italic;
+  }
+  /*Increase the browser size or "zoom out" to see the result*/
+}
